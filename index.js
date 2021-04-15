@@ -14,3 +14,8 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+function newTitle(tutorial) {
+  const newArray = [];
+  const splitTutorial = tutorial.split("");
+  console.log(splitTutorial)
+}
